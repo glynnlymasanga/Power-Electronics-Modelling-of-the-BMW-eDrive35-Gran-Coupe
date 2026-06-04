@@ -92,3 +92,7 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 ✅ Simulation validation completed
 
 ✅ Final report completed
+
+## Technical Summary
+
+The project evaluated the BMW i4 eDrive35 powertrain through vehicle energy modelling, the design of a 210 kW SiC-based traction inverter and 7kW onboard charger. The inverter was analysed using SVPWM control, loss modelling, thermal evaluation, and simulation validation. A 7 kW onboard charger consisting of a PFC boost stage and isolated DC/DC converter was also developed as part of the overall vehicle charging architecture.
