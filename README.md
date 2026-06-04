@@ -1,6 +1,8 @@
-# Power-Electronics-Modelling-of-the-BMW-eDrive35-Gran-Coupe
+# Power-Electronics-Modelling-of-the-BMW-i4-eDrive35-Gran-Coupe
 
 System-level modelling and simulation of the BMW i4 eDrive35 electric drivetrain, including vehicle energy analysis, traction inverter design, and power electronics performance evaluation.
+
+<img width="1000" height="600" alt="bmw-i4-iedrive40-dri" src="https://github.com/user-attachments/assets/576fec30-7888-4768-956d-853bea42f6b9" />
 
 ## Overview
 
@@ -24,6 +26,8 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 - Well-to-wheel emissions analysis
 - Regional electricity generation impact assessment
 - Documentation
+  
+<img width="1875" height="1076" alt="image" src="https://github.com/user-attachments/assets/a8bca38a-1af7-4436-9017-2bc2480b2737" />
 
 ### Phase 2 – 210 kW SiC Traction Inverter Design
 
@@ -37,9 +41,18 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 - MATLAB/Simulink validation
 - Documentation
 
-### Phase 3 – On-Board Charger
+<img width="11928" height="8024" alt="schematic" src="https://github.com/user-attachments/assets/a53d0be1-4ac9-4f28-8b21-1588c8c9724e" />
 
-- Contributed to technical reviews and project integration activities
+
+### Phase 3 – 7kw PFC Boost On-Board Charger with DC-DC isolation
+
+- PFC boost converter front-end
+- 400 V DC-link generation
+- Isolated DC/DC conversion stage
+- Contributed to technical reviews, verification, and project integration activities
+
+<img width="1840" height="1037" alt="image" src="https://github.com/user-attachments/assets/8e13b6ed-3a21-4363-a60e-24e2d2859d17" />
+
 
 ## Key Results
 
@@ -73,6 +86,8 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 ✅ Vehicle modelling completed
 
 ✅ Traction inverter design completed
+
+✅ 7kw PFC Boost On-Board Charger front-end with DC-DC isolation completed
 
 ✅ Simulation validation completed
 
