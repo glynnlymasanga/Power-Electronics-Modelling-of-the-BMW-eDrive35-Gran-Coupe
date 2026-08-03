@@ -84,6 +84,12 @@ The project evaluated the BMW i4 eDrive35 powertrain through vehicle energy mode
 ```text
 Feedback-Control-of-a-Buck-Converter/
 │
+├── datasheets/
+│   ├── infineon-ipdq65r008cm8-datasheet-en.pdf
+│   │
+│   └── stth6010-datasheet.pdf
+│   │
+│   └── Wolfspeed_CAB650M17HM3_datasheet.pdf
 ├── docs/
 │   └── Final Report EECE5690 BMW eDrive35.pdf
 |
