@@ -84,16 +84,15 @@ The project evaluated the BMW i4 eDrive35 powertrain through vehicle energy mode
 ```text
 Feedback-Control-of-a-Buck-Converter/
 │
+├── docs/
+│   └── Final Report EECE5690 BMW eDrive35.pdf
+|
 ├── simulations/
 │   ├── Phase 1 Energy Modeling-BMW i4 eDrive35 Gran Coupe.slx
 │   │
 │   └── Phase 2 Three-phase Inverter-BMW i4 eDrive35 Gran Coupe.plecs
 │   │
 │   └── Phase 3 Onboard PFC BoostCharger-BMW i4 eDrive35 Gran Coupe.slx
-|
-├── docs/
-│   └── Final Report EECE5690 BMW eDrive35.pdf
-│
 │
 └── README.md
 ```
