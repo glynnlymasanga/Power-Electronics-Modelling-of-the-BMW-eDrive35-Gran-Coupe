@@ -66,13 +66,11 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 | Switching Devices | SiC MOSFETs |
 | Simulated Full-Load Efficiency | 98.45% |
 
-## Tools
+## Technical Summary
 
-- MATLAB / Simulink
-- PLECS
-- Excel
-- Datasheet-based loss modelling
-- Analytical power electronics calculations
+The project evaluated the BMW i4 eDrive35 powertrain through vehicle energy modelling, the design of a 210 kW SiC-based traction inverter and 7kW onboard charger. The inverter was analysed using SVPWM control, loss modelling, thermal evaluation, and simulation validation. A 7 kW onboard charger consisting of a PFC boost stage and isolated DC/DC converter was also developed as part of the overall vehicle charging architecture.
+
+
 
 ## Repository Contents
 
@@ -81,18 +79,28 @@ My primary responsibility was the development and completion of Phases 1 and 2.
 - Design calculations
 - Supporting documentation
 
-## Project Status
+## Repository Structure
 
-✅ Vehicle modelling completed
+```text
+Feedback-Control-of-a-Buck-Converter/
+│
+├── simulations/
+│   ├── Phase 1 Energy Modeling-BMW i4 eDrive35 Gran Coupe.slx
+│   │
+│   └── Phase 2 Three-phase Inverter-BMW i4 eDrive35 Gran Coupe.plecs
+│   │
+│   └── Phase 3 Onboard PFC BoostCharger-BMW i4 eDrive35 Gran Coupe.slx
+|
+├── docs/
+│   └── Final Report EECE5690 BMW eDrive35.pdf
+│
+│
+└── README.md
+```
+## Tools
 
-✅ Traction inverter design completed
-
-✅ 7kw PFC Boost On-Board Charger front-end with DC-DC isolation completed
-
-✅ Simulation validation completed
-
-✅ Final report completed
-
-## Technical Summary
-
-The project evaluated the BMW i4 eDrive35 powertrain through vehicle energy modelling, the design of a 210 kW SiC-based traction inverter and 7kW onboard charger. The inverter was analysed using SVPWM control, loss modelling, thermal evaluation, and simulation validation. A 7 kW onboard charger consisting of a PFC boost stage and isolated DC/DC converter was also developed as part of the overall vehicle charging architecture.
+- MATLAB / Simulink
+- PLECS
+- Excel
+- Datasheet-based loss modelling
+- Analytical power electronics calculations
